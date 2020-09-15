@@ -12,7 +12,11 @@ function App() {
     <Router>
       <div className="app">
         <Header />
+
         <Switch> 
+        <Route path="/login">
+          <h1>Login page</h1>
+          </Route>
           <Route path="/checkout">
             <Checkout />
             </Route>
